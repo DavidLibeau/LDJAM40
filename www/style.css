@@ -1,0 +1,94 @@
+body,html {
+    margin: 0;
+    font-family: "Open sans", sans-serif;
+    background-color: #011b40;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("assets/BebasNeue.otf");
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo>img {
+    position: relative;
+    width: 100vw;
+}
+
+#emoteLogo {
+    position: absolute;
+    top: 4vw;
+    right: 16%;
+    width: 7%;
+    text-align: center;
+    overflow: hidden;
+}
+#emoteLogo>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#playBtn {
+    text-align: center;
+    line-height: 42px;
+    margin-top: -20px;
+}
+#playBtn>a {
+    display: inline-block;
+    padding: 5px 20px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    background-color: #e7d739;
+    box-shadow: #d1c339 -1px 1px, #d1c339 -2px 2px, #d1c339 -3px 3px, #d1c339 -4px 4px, #d1c339 -5px 5px;
+}
+#playBtn>a:hover{
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    background-color: #0046c8;
+    box-shadow: #003cac -1px 1px, #003cac -2px 2px, #003cac -3px 3px, #003cac -4px 4px, #003cac -5px 5px;
+}
+#playBtn>a>img{
+    margin-top: -30px;
+    margin-right: -15px;
+    margin-bottom: -10px;
+}
+#playBtn>a:hover>img{
+    -ms-transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
+#infoBox{
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 40px;
+    max-width: 600px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    opacity: 0.2;
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.8);
+}
+footer a{
+    font-weight: bold;
+    color: white;
+}
