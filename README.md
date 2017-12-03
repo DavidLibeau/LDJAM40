@@ -3,7 +3,7 @@ Ludum Dare 40 (48h jam) submission
 
 ## Info
 
-This is a VR/mobile/desktop game made in 48h for the 40th Ludum Dare jam with the theme "The more you have, the worse it is".
+This is a VR/mobile/desktop game made in 48h for the [40th Ludum Dare](https://ldjam.com/events/ludum-dare/40) jam with the theme "The more you have, the worse it is".
 
 ## Install
 
@@ -15,3 +15,6 @@ This is a VR/mobile/desktop game made in 48h for the 40th Ludum Dare jam with th
 
 4. Play!
 
+## Licence
+
+[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
