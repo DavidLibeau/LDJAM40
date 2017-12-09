@@ -484,7 +484,7 @@ if (!isset($_GET['code'])) {
                     document.querySelector("#scoreNb").setAttribute("text-geometry", "value:" + score + ";height:0.4;size:2;font:#bebasNeue");
 
                 }
-            }, 8000);
+            }, 1000);
         }, 8000);
     </script>
 
